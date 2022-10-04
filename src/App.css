@@ -1,0 +1,130 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #23252c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: #2b283a;
+}
+
+h2 {
+    color: #2b283a;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 12.8px;
+    color: #f47d27;
+}
+
+p {
+    font-size: 10.24px;
+    color: #4a4e74;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #4a4e74;
+    text-decoration: none;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.btn {
+    padding: 10px 0;
+    width: 115px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.btn .fi {
+    font-size: 11px;
+    margin-right: 6px;
+}
+
+.btn--light {
+    background: #fff;
+    border: 1px solid #d1d5db;
+    color: #374151;
+}
+
+.btn--dark {
+    background: #297fe5;
+    border: 1px solid #297fe5;
+    color: #fff;
+}
+
+.App {
+    max-width: 317px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro__img {
+    width: 100%;
+}
+
+.intro__text {
+    padding: 25px 35px;
+}
+
+.intro__text p {
+    margin-bottom: 0;
+}
+
+.website--link {
+    margin: 16px 0;
+    display: inline-block;
+}
+
+.website--link:hover {
+    text-decoration: underline;
+}
+
+.intro__cta-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    padding: 0 35px;
+}
+
+.interests {
+    padding: 0 35px 25px;
+}
+
+.footer {
+    background: #d5d4d8;
+    padding: 20px 0;
+}
+
+.footer__list {
+    width: 170px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
